@@ -333,14 +333,14 @@ div.desc {
   }
   footer{ 
   
+
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: dodgerblue;
+    background-color:dodgerblue;
     color: white;
     text-align: center;
-    padding-top: 12px;
-    margin-top: 30px;
+    overflow: hidden;
 
 }
 /*footer end */
