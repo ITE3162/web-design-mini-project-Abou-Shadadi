@@ -15,36 +15,35 @@
     
 <!-- Add your content here: use semantic tags where possible -->
 <header>  
-     <nav>
+     <nav >
         <ul>
-        <li><a href="#home">Home</a></li> 
-        <li>   <a href="#about">About</a></li> 
+      
+        <li> <a href="#service">Services</a></li> 
         <li>  <a href="#skills">Skills</a></li> 
-        <li> <a href="#service">Service</a></li> 
-        <li><a href="#contact">Contact</a></li> 
+ <li><a href="#contact">Contact</a></li> 
     </ul>
     </nav>
    
 </header>
  <section class="main-header">
-<p>Welcome to my portfolio</p>
+
+<div class="about-container">
+    <p>
+Hi, I am Abou-Shadadi Niyonkuru a full a web developer with 4 years of experience, I work with clients of different sizes across a wide range of sectors.
+<br><br>
+<br><input type="submit" value="Contact me"  style="background-color: dodgerblue; margin-bottom: 30px; padding-bottom: 12px;"></p>
+<img src="images/profile2.jpg" />
+  
+
+  </div>
+
  </section>
-<h1>ABOUT</h1>
-     <section class="main-container">
-        
-        
-        <hr> 
-        <div class="about-container">
-            <div class="block"><img src="images/profile2.jpg" /></div>
-            <div class="block block-content">Hi, I am Abou-Shadadi Niyonkuru a full a web developer with 4 years of experience, I work with clients of different sizes across a wide range of sectors.</div>
-        </div>
-        
-     </section> 
+ <hr>
      <!---------------MY services-->  
 
      
        <h1>SERVICES</h1>
-     <section class="main-container">        <div class="container">
+     <section class="main-container" id="service">        <div class="container">
             <div><img src="images/ad.jpg"><p><h2>Android Development</h2>
             Designing applications for the Android marketplace.
            
@@ -81,7 +80,7 @@
                 <div><img src="images/sql.png"><p><h2>SQL</h2>   
                 </p>  </div>
                 </div>
-        <div class="myskills">
+        <div class="myskills" id="skills">
             <h1>Programming Language Skills Progress</h1>
             <hr>
             <div class="skill-container">
@@ -144,15 +143,16 @@
          </div>
          </section>
        <h1>CONTACT</h1>
-         <section class="main-container">
-    
+         <section class="main-container" id="contact">
+             <div style="margin-top: 30px;">
+       
+    <hr>
         <form action="">
             <label for="fname">Full Names</label>
             <input type="text" id="fname" name="firstname" placeholder="Your Full Names..">
         
             <label>email</label>
             <input type="email" id="lname" name="lastname" placeholder="Your email..">
-        
             <label>Country</label>
             <select>
               <option value="Rwanda">Rwanda</option>
@@ -163,8 +163,9 @@
     <label>Message</label>
             <textarea  placeholder="Write Message.." style="height:100px"></textarea>
         
-            <input type="submit" value="Submit" style="background-color: dodgerblue">
+            <input type="submit" value="Submit" style="background-color: dodgerblue; margin-bottom: 30px; padding-bottom: 12px;">
           </form>
+          </div>
      </section>
      <footer>
  2021@All Right Reserved. Design by <a href="https://rw.linkedin.com/in/niyonkuru-abou-shadadi-a55757193" target="_blank">Abou-Shadadi Niyonkuru</a>.</p>
