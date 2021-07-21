@@ -132,31 +132,11 @@ body {
     width: 30%;
     height: 500px;
     float: left;
-    margin: 10px;
-   
-    box-shadow: 0 5px 15px -5px #333;
-    transition: all 0.3s ease-in-out;
-    background-color: #f7f8f9;
-    border-radius: 3px;
-    overflow: visible; }
-    .blog-item:hover {
-      box-shadow: 0 5px 15px 5px #0000;
-      transform: translateY(-12px);
-      -webkit-transform: translateY(-12px);
-      -moz-transform: translateY(-12px);
-      transform: translateY(-12px);
-      box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
-      -moz-box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15);
-      -webkit-box-shadow: 0 7px 10px rgba(0, 0, 0, 0.15); }
-  
-  .bg-grey .blog-item {
-    background-color: #fff; }
-  
-  .blog-item-wrapper {
-    margin-bottom: 30px; }
-  
-  .blog-img img {
-    display: flex;
+      overflow: hidden;
+      background-color: #333;
+      position: fixed;
+      top: 0;
+      display: flex;
     display: inline-block;
     width: 100%;
     height: 250px;
